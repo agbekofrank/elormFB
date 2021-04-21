@@ -1,0 +1,89 @@
+#login-window {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #bdbdbd url("/imports/ui/img/cubes.jpg");
+    z-index: 10;
+
+}
+
+#login-window form {
+    background: rgb(185, 185, 185);
+    color: #84a1a1;
+    /* display: ; */
+    margin-top: 0em;
+    margin: auto;
+    width: 40%;
+    height: 180px;
+    /* border: 5px solid #FFFF00; */
+    padding: 40px;
+
+}
+#login-window:nth-child(5){
+    background-color: #7b1fa2;
+    width: 20%;
+}
+#login-window h3{
+    margin: 5% auto auto 25.5%;
+}
+
+#login-window div{
+    background-color: #424444;
+    color: #84a1a1;
+    font-size: 16px;
+    line-height: 45px;
+    height: 45px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.2s;
+    border: 0px;
+    border-radius: 3px;
+} 
+
+#login-window label {
+    width: 100px;
+    /* background: red; */
+    margin: 0px 20px 0px 0px;
+}
+#login-window input{
+    color: rgb(200, 195, 188);
+    background-color: none;
+    /* font-size: 16px; */
+    line-height: 45px; 
+    height: 45px;
+    float: right;
+    /* display: block; */
+    width: 71%;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* transition: all 0.2s; */
+    border: 0px;
+    border-radius: 3px;
+
+    
+}
+#login-window p{
+    font-style: italic;
+    color: #c2185b;
+    margin-left: 40%;
+}
+#login-window button{
+    color: white;
+    background-color: #084742;
+    font-size: 16px;
+    line-height: 45px;
+    height: 45px;
+    display: inline;
+    width: 140px;
+    margin-top: 20px;
+    overflow: hidden;
+    /* margin-bottom: 20px; */
+    margin-left: 30%;
+    transition: all 0.2s;
+    border: 0px;
+    border-radius: 3px;
+}
